@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="@string/perf_key"
+        android:title="@string/perf_title"
+        android:inputType="text"
+        android:defaultValue="@string/perf_default"
+        android:singleLine="true"
+        />
+    <ListPreference
+        android:key="@string/list_pref_key"
+        android:title="@string/list_perf_title"
+        android:entryValues="@array/temperture_list"
+        android:defaultValue="@string/list_perf_default"
+        android:entries="@array/temperture_list"/>
+
+
+</PreferenceScreen>
